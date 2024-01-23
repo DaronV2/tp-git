@@ -34,13 +34,19 @@ echo "Je suis le fichier 2"> fichier2.md
 
 - Committer ces deux modifications : "Fonctionnalité 1 - première phase"
 
-
+git commit -m "Fonctionnalité 1 - premère phase"
 
 - Créer un nouveau fichier `fichier4.md`
 
+touch fichier 4.md
+
 - Modifier de nouveau le fichier `fichier2.md`
 
+vi fichier2.md
+
 - Committer ces deux modifications : "Fonctionnalité 1 - terminée"
+
+git commit -m "Fonctionnalité 1 - terminée"
 
 - **_VALIDATION PROF03_**
 
