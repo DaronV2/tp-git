@@ -79,6 +79,9 @@ git merge --abort
 
 - Ajouter les modification à l'index et committer
 
+git add .
+git commit -m "Modification fichier1"
+
 - NB : parfois, plusieurs fichiers sont en conflit ; le processus est identique, il faut juste résoudre les conflits sur tous les fichiers
 
 - NB : les conflits de fusion sont fréquents lorsqu'on travaille en collaboration (plusieurs personnes vont travailler sur le même fichier pour remplir deux fonctionnalités différentes)
@@ -94,3 +97,5 @@ git merge --abort
   - Tâche terminée ? => fusion dans la branche d'intégration et suppression de la branche
 
 - Supprimer les trois branches `fonctionnalitex` (attention : on ne peut pas supprimer une branche sur laquelle on est)
+
+git branch -d fonctionnalitex
