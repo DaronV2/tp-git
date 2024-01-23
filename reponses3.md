@@ -4,23 +4,28 @@ _Cette partie est à faire sur le même dépôt que la partie précédente. C'es
 
 - On considère que la branche originale (`master` ou `main`) est la branche d'intégration, c'est-à-dire celle qui va contenir l'historique de toutes les modifications développées au fur et à mesure dans les branches annexes
 
-- On va maintenant fusionner la branche `fonctionnalite1`, qui est terminée, avec la branche d'intégration
-
-
-
 - Se déplacer sur la branche `master`
+
+git checkout master
 
   - Noter le changement dans l'onglet _Git Graph_
 
 - Fusionner avec la branche `fonctionnalite1`
 
+git merge fonctionnalite1
+
 - Noter le changement dans l'onglet _Git Graph_. Que signifie la mention _Fast-forward_ indiquée par la sortie de la commande ?
+
 
 - On veut maintenant fusionner `fonctionnalite2` dans la branche d'intégration (`master`)
 
 - Effectuer cette fusion
 
+git merge fonctionnalite2
+
 - Noter le changement dans l'onglet _Git Graph_. Que signifie la mention _Merge made by the ... strategy_ indiquée par la sortie de la commande ?
+
+
 
 - Quelle est la différence fondamentale avec la fusion précédente ?
 

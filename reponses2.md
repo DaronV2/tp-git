@@ -52,6 +52,7 @@ git commit -m "Fonctionnalité 1 - terminée"
 
 - Afficher la liste des fichiers du répertoire
 
+<<<<<<< HEAD
 - Se déplacer sur la branche `master`
 
 - Afficher la liste des fichiers du répertoire
@@ -61,13 +62,49 @@ git commit -m "Fonctionnalité 1 - terminée"
 - Créer une nouvelle branche `fonctionnalite2`
 
   - Cette branche ne va pas avoir toutes les données incluses dans `fonctionnalite1`. Pourquoi ?
+=======
+ls -a 
+
+- Se déplacer sur la branche `master`
+
+git checkout master
+
+- Afficher la liste des fichiers du répertoire
+
+ls -a 
+
+- Pourquoi les deux sorties sont-elles différentes ? Les fichiers ont-ils disparus ?
+
+Car la branche fontcionnalite1 vois les fichiers de master
+
+- Créer une nouvelle branche `fonctionnalite2`
+
+git branch fonctionnalite2
+
+  - Cette branche ne va pas avoir toutes les données incluses dans `fonctionnalite1`. Pourquoi ?
+
+  Car elle ne connais que elle et les données de la branche master la branche fonctionnalite1 est un enfant de master tout comme fonctionnalite2
+
+>>>>>>> fonctionnalite2
   - Qu'aurait-il fallu faire si on avait souhaité démarrer la branche `fonctionnalite2` en intégrant les modifications récentes de `fonctionnalite1` ?
 
 - Se déplacer sur la nouvelle branche `fonctionnalite2`
 
+<<<<<<< HEAD
 - Créer un nouveau fichier `fichier5.md`
 
 - Faire un _commit_ intégrant cette ajout : "Ajout fichier5.md"
+=======
+git checkout fonctionnalite2
+
+- Créer un nouveau fichier `fichier5.md`
+
+touch fichier5.md
+
+- Faire un _commit_ intégrant cet ajout : "Ajout fichier5.md"
+
+git commit -m "Ajout fichier5.md"
+>>>>>>> fonctionnalite2
 
 - Entrer la commande `git log --oneline --decorate --graph --all` pour visualiser, sur le terminal, le graphe des _commits_ sur toutes les branches
 
@@ -79,7 +116,20 @@ git commit -m "Fonctionnalité 1 - terminée"
 
 - Installer l'extension VS Code _Git Graph_ et visualiser le graphe actuel des _commits_ à l'aide de cette extension
 
+<<<<<<< HEAD
   - Sur cette représentation, que représente les points ?
   - Comment voit-on sur quelle branche on est actuellement ?
 
+=======
+
+
+  - Sur cette représentation, que représente les points ?
+
+  Tout les commits
+
+  - Comment voit-on sur quelle branche on est actuellement ?
+
+  Avant le nom des commit il y a la branche dans laquelle nous avons commit
+
+>>>>>>> fonctionnalite2
 - **_VALIDATION PROF04_**
