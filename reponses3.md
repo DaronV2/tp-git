@@ -1,3 +1,4 @@
+Louis NIE
 ## Partie 3 - Fusionner des branches
 
 _Cette partie est à faire sur le même dépôt que la partie précédente. C'est la suite._

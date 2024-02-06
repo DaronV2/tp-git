@@ -1,4 +1,4 @@
-
+Louis NIE
 ## B1-Git - Partie 1 : Création du dépôt et _commits_
 
 - Ouvrir un terminal (terminal _Git Bash_ à privilégier)
